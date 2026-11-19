@@ -1,5 +1,7 @@
 # Saffire Pro 24 on Windows 11 — legacy driver fix (no test signing)
 
+[**English**](README.md) | [Русский](README.ru.md)
+
 > **AI-generated project.** The scripts and this document were produced with an AI
 > assistant (OpenCode / DeepSeek) from hands-on experiments on real hardware, then
 > reviewed and validated by the machine's owner. Treat it as a documented workaround,
@@ -126,11 +128,4 @@ MIT — see `LICENSE`. No vendor binaries are distributed.
 
 ---
 
-## Кратко по-русски
-
-Скрипты чинят Saffire Pro 24 на Windows 11 24H2/25H2 **без тестового режима**: убирают
-политику Microsoft `{8F9CB695-…}` (апрель 2026), из-за которой блокируется последний
-драйвер Focusrite 4.3.0.41017, и ставят оригинальный драйвер. Драйверы в репозиторий
-не входят — положите их в `drivers\` из установщика Focusrite.
-
-Проект сгенерирован ИИ и проверен на реальном железе; используйте на свой риск.
+Полный перевод на русский: **[README.ru.md](README.ru.md)**
