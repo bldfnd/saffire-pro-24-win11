@@ -1,0 +1,12 @@
+# local backups and logs
+backup/
+*.log
+
+# never publish vendor binaries or certificates
+drivers/
+*.pfx
+*.cer
+
+# OS cruft
+.DS_Store
+Thumbs.db
